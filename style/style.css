@@ -62,8 +62,8 @@ body {
   width: 170px;
   height: 170px;
   border-radius: 100%;
-  border: 1px solid rgba(236, 174, 176, 0.5);
-  box-shadow: 0px 0px 8px #f0bec0;
+  border: 1px solid rgba(251, 173, 195, 0.28);
+  box-shadow: 0px 0px 8px #fbadc3;
   left: -40px;
   top: -40px;
   transition: all 0.5s ease;
@@ -81,14 +81,15 @@ body {
   border-radius: 15px;
   left: 20px;
   top: -6px;
-  background: #eecccc;
+  background: #d7758e;
+  box-shadow: 0px 0px 20.25px 4.5px #e39eaf;
 }
 
 .container .kelopakBunga > div:nth-child(2),
 .container .kelopakBunga > div:nth-child(4),
 .container .kelopakBunga > div:nth-child(6) {
   border-radius: 0px 30px 0px 30px;
-  background: #f0bec0;
+  background: #d7758e;
   left: 0;
   transform-origin: bottom right;
 }
@@ -109,7 +110,7 @@ body {
   -webkit-animation-fill-mode: forwards;
   animation-fill-mode: forwards;
   z-index: 5;
-  background: #dfa0a1;
+  background: #9e2e4b;
   top: 10px;
   height: 70px;
   -moz-animation-delay: 2s;
@@ -125,7 +126,7 @@ body {
   -webkit-animation-fill-mode: forwards;
   animation-fill-mode: forwards;
   z-index: 4;
-  background: #dfa0a1;
+  background: #9e2e4b;
   top: 10px;
   height: 70px;
   -moz-animation-delay: 2s;
@@ -141,7 +142,7 @@ body {
   -webkit-animation-fill-mode: forwards;
   animation-fill-mode: forwards;
   z-index: 3;
-  background: #e4aeb0;
+  background: #b23454;
   top: 5px;
   height: 75px;
   -moz-animation-delay: 2s;
@@ -156,7 +157,7 @@ body {
   -webkit-animation-fill-mode: forwards;
   animation-fill-mode: forwards;
   z-index: 2;
-  background: #e4aeb0;
+  background: #b23454;
   top: 5px;
   height: 75px;
   -moz-animation-delay: 2s;
@@ -172,7 +173,7 @@ body {
   -webkit-animation-fill-mode: forwards;
   animation-fill-mode: forwards;
   z-index: 1;
-  background: #e9bdbe;
+  background: #c63a5e;
   top: "";
   height: "";
   -moz-animation-delay: 2s;
@@ -188,7 +189,7 @@ body {
   -webkit-animation-fill-mode: forwards;
   animation-fill-mode: forwards;
   z-index: 0;
-  background: #e9bdbe;
+  background: #c63a5e;
   top: "";
   height: "";
   -moz-animation-delay: 2s;
@@ -382,6 +383,6 @@ body {
 
 @keyframes glowing {
   50% {
-    box-shadow: 0px 0px 60px #f4cecf;
+    box-shadow: 0px 0px 60px #f87da0;
   }
 }
